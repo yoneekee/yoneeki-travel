@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./layout/images/favi.png"
+      type="image/x-icon"
+    />
+    <!-- favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google fonts-->
+
+    <link rel="stylesheet" href="./css/pretendard.css">
+    <!-- pretendard -->
+
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  <!-- google 웹폰트 / 아이콘 -->
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- css -->
+
+    <script src="./js/aos.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!--js-->
+
+    <title>Yoneeki Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="">
+          <img
+            src="./layout/images/logo.png"
+            alt=""
+            class="logo__img--dark"
+          />
+          <img
+            src="./layout/images/logo.png"
+            alt=""
+            class="logo__img--light"
+          />
+        </a>
+      </h1>
+      
+      <nav class="gnb">
+        <h2 class="hidden">global navigation</h2>
+        <ul class="list">
+          <li>
+            <a href="">company</a>
+            <ul class="depth02">
+              <li><a href="">greeting</a></li>
+              <li><a href="">vision</a></li>
+              <li><a href="">history</a></li>
+              <li><a href="">certificates</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">traveling</a>
+            <ul class="depth02">
+              <li><a href="">asia</a></li>
+              <li><a href="">europe</a></li>
+              <li><a href="">america</a></li>
+              <li><a href="">special</a></li>
+            </ul>
+          </li>
+          <li><a href="">transport</a>
+            <ul class="depth02">
+              <li><a href="#">airplane</a></li>
+              <li><a href="#">bus</a></li>
+              <li><a href="#">train</a></li>
+            </ul>
+          </li>
+          <li><a href="">press</a></li>
+          <li><a href="">career</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+      <div class="language">
+        <a href="" class="active">ko</a>
+        <a href="">en</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="visual" data-aos="fade">
+        <h2 class="hidden">main video</h2>
+
+        <video
+          src="./layout/videos/tropical.mp4"
+          autoplay
+          muted
+          loop
+          class="visual_video"
+        ></video>
+
+        <div class="visaul_txt_wrap">
+          <div class="visual_txt">
+            <h2 data-aos="fade-down" data-aos-delay="600">
+              Yoneeki <br />
+              Tourism Company
+            </h2>
+            <p data-aos="fade-right" data-aos-delay="800">Most Fun</p>
+            <p data-aos="fade-left" data-aos-delay="1000">Most Reasonable</p>
+          </div>
+        </div>
+      </section>
+      <!-- visual end-->
+
+      <section class="promotion container">
+        <a class="promo-a" href="#" data-aos="fade-right" data-aos-delay="500">
+          <h2>Fun</h2>
+          <div class="promotion-banner">
+            <img src="./layout/images/promotion01.png" alt="" />
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat."
+          </p>
+        </a>
+        <a class="promo-a" href="#" data-aos="fade" data-aos-delay="500">
+          <h2>Fun</h2>
+          <div class="promotion-banner">
+            <img src="./layout/images/promotion02.png" alt="" />
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat."
+          </p>
+        </a>
+        <a class="promo-a" href="#" data-aos="fade-left" data-aos-delay="500">
+          <h2>Fun</h2>
+          <div class="promotion-banner">
+            <img src="./layout/images/promotion03.png" alt="" />
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat."
+          </p>
+        </a>
+      </section>
+      <!-- promotion end -->
+
+      <section class="airplane container">
+        <div data-aos="fade-right" class="airplane_title">
+          <h2 data-aos="fade-right" data-aos-delay="400">Airplane</h2>
+          <p>Offered with the cheapest price</p>
+        </div>
+        <div data-aos="fade-up-right" class="airplane_img">
+          <img src="./layout/images/plane.png" alt="" />
+        </div>
+        <div class="airplane_btn" data-aos="fade-left">
+          <a class="btn" href="#">Move to the page</a>
+        </div>
+      </section>
+      <!-- airplane 1 end -->
+
+      <section class="bus container">
+        <div class="bus_btn" data-aos="fade-right">
+          <a class="btn" href="#">Move to the page</a>
+        </div>
+        <div data-aos="fade-up" class="bus_img">
+          <img src="./layout/images/bus.png" alt="" />
+        </div>
+        <div data-aos="fade-left" class="bus_title">
+          <h2 data-aos="fade-left" data-aos-delay="400">Bus</h2>
+          <p>Offered with the cheapest price</p>
+        </div>
+      </section>
+      <!-- bus end -->
+
+      <section class="reco">
+        <h2 data-aos="fade-right" data-aos-delay="400">
+          Travels only recommended for you
+        </h2>
+        <div class="container" data-aos="fade-up" data-aos-delay="500">
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_aurora.jpg" alt="aurora" />
+            </div>
+            <div class="reco_desc">
+              <p>Airtel</p>
+              <p><strong>Aurora for 5 days</strong></p>
+              <p>#Aurora #Europe</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_desert.jpg" alt="desert" />
+            </div>
+            <div class="reco_desc" v>
+              <p>Free</p>
+              <p><strong>Desert for 5 days</strong></p>
+              <p>#Desert #Africa</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_kyoto.jpg" alt="japan" />
+            </div>
+            <div class="reco_desc">
+              <p>Free</p>
+              <p><strong>Japan for 5 days</strong></p>
+              <p>#Asia #Japan</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_positano.jpg" alt="aurora" />
+            </div>
+            <div class="reco_desc">
+              <p>Airtel</p>
+              <p><strong>Italy for 5 days</strong></p>
+              <p>#Europe #Italy</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_jeju.jpg" alt="aurora" />
+            </div>
+            <div class="reco_desc">
+              <p>Airtel</p>
+              <p><strong>Jeju for 5 days</strong></p>
+              <p>#Korea #Island</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_butan.jpeg" alt="desert" />
+            </div>
+            <div class="reco_desc">
+              <p>Free</p>
+              <p><strong>Butan for 5 days</strong></p>
+              <p>#Peaceful #Asia</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_paris.jpg" alt="japan" />
+            </div>
+            <div class="reco_desc">
+              <p>Free</p>
+              <p><strong>Paris for 5 days</strong></p>
+              <p>#France #Europe</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+
+          <a href="#" class="reco_wrap">
+            <div class="reco_img">
+              <span class="material-symbols-outlined forward"> forward </span>
+              <img src="./layout/images/reco_spain.jpg" alt="aurora" />
+            </div>
+            <div class="reco_desc">
+              <p>Airtel</p>
+              <p><strong>Spain for 5 days</strong></p>
+              <p>#Spain #Europe</p>
+              <h4>8,000$~</h4>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- reco end -->
+
+      <section class="discount">
+
+        <div class="discount-title">
+          <a href="" class="btn discount-btn" data-aos="fade-down" data-aos-delay="500">See More Tours</a>
+          <div>
+            <h2 data-aos="fade-right" data-aos-delay="300">Last Discount</h2>
+            <h4 data-aos="fade" data-aos-delay="600"><strong>This is the last chance!</strong></h4>
+          </div>
+        </div>
+        <div class="container" >
+          <div class="discount-banner" data-aos="fade-right" data-aos-delay="400">
+            <ul class="discount-banner-list swiper-wrapper">
+              <li class="swiper-slide"><a href="">
+                <div class="discount-img">
+                  <img src="https://picsum.photos/id/111/450/300" alt="" />
+                  <span class="sticker">HOT!</span>
+                </div>
+                <div class="discount-txt">
+                  <h3>
+                    Last Deal!
+                  </h3>
+                  <p class="date">$2,000~</p>
+                </div>
+              </li>
+              <li class="swiper-slide"><a href="">
+                <div class="discount-img">
+                  <img src="https://picsum.photos/id/211/450/300" alt="" />
+                  <span class="sticker">HOT!</span>
+                </div>
+                <div class="discount-txt">
+                  <h3>
+                    Last Deal!
+                  </h3>
+                  <p class="date">$2,000~</p>
+                </div>
+              </li>
+              <li class="swiper-slide"><a href="">
+                <div class="discount-img">
+                  <img src="https://picsum.photos/id/311/450/300" alt="" />
+                  <span class="sticker">HOT!</span>
+                </div>
+                <div class="discount-txt">
+                  <h3>
+                    Last Deal!
+                  </h3>
+                  <p class="date">$2,000~</p>
+                </div>
+              </li>
+              <li class="swiper-slide"><a href="">
+                <div class="discount-img">
+                  <img src="https://picsum.photos/id/411/450/300" alt="" />
+                  <span class="sticker">HOT!</span>
+                </div>
+                <div class="discount-txt">
+                  <h3>
+                    Last Deal!
+                  </h3>
+                  <p class="date">$2,000~</p>
+                </div>
+              </li>
+              <li class="swiper-slide"><a href="">
+                <div class="discount-img">
+                  <img src="https://picsum.photos/id/511/450/300" alt="" />
+                  <span class="sticker">HOT!</span>
+                </div>
+                <div class="discount-txt">
+                  <h3>
+                    Last Deal!
+                  </h3>
+                  <p class="date">$2,000~</p>
+                </div>
+                <li class="swiper-slide"><a href="">
+                  <div class="discount-img">
+                    <img src="https://picsum.photos/id/520/450/300" alt="" />
+                    <span class="sticker">HOT!</span>
+                  </div>
+                  <div class="discount-txt">
+                    <h3>
+                      Last Deal!
+                    </h3>
+                    <p class="date">$2,000~</p>
+                  </div>
+              </li>
+            </ul>
+            <button class="btn btn--round btn--fixed btn--next">
+              <span class="material-icons"> arrow_forward </span>
+            </button>
+            <button class="btn btn--round btn--fixed btn--prev">
+              <span class="material-icons"> arrow_back </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- discount end -->
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-items">
+          <div class="footer__item">
+            <img
+              src="./layout/images/logo.png"
+              alt=""
+              class="footer-logo"
+            />
+          </div>
+          <div class="footer__item">
+            <h2>Office</h2>
+            <dl>
+              <dt>본사</dt>
+              <dd>울산광역시 남구 매암로28, 201호</dd>
+            </dl>
+            <dl>
+              <dt>연구소</dt>
+              <dd>서울특별시 강남구 테헤란로20길20, 3층</dd>
+            </dl>
+            <dl>
+              <dt>공장</dt>
+              <dd>서울특별시 성동구 광나루로 144, 707호</dd>
+            </dl>
+          </div>
+          <div class="footer__item">
+            <h2>Contact Us</h2>
+            <dl>
+              <dt>일반 문의</dt>
+              <dd>contact@yoneeki.com</dd>
+            </dl>
+          </div>
+          <div class="footer__item">
+            <h2>Contact Us</h2>
+            <dl>
+              <dt>제품 문의</dt>
+              <dd>product@yoneeki.com</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>ⓒ 2022 Yoneeki Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="btn-top">
+      <span class="material-icons">north</span>
+    </button>
+    
+
+    <script>
+      AOS.init({
+        duration: 600,
+        delay: 200,
+      });
+  
+      const swiper = new Swiper(".discount-banner", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+          nextEl: ".discount-banner .btn--next",
+          prevEl: ".discount-banner .btn--prev",
+        },
+      });
+  
+      const btnTop = document.querySelector(".btn-top");
+      btnTop.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      
+      const header = document.querySelector(".header");
+      window.addEventListener("scroll", function (e) {
+        console.log(window.scrollY);
+        if (window.scrollY > 0) {
+          header.classList.add("on");
+          btnTop.classList.add("on");
+        } else {
+          header.classList.remove("on");
+          btnTop.classList.remove("on");
+        }
+      });
+    </script>
+  </body>
+  
+</html>
